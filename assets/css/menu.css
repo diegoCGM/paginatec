@@ -1,0 +1,117 @@
+
+
+
+.menu-content{
+ 
+    height: 50px;
+   
+   display: none;
+
+   
+ 
+    
+
+}
+.menu-content .menu{
+    width: 100%;
+display:flex ;
+
+background-color: ;
+}
+.menu-content ul li {
+    list-style-type: none;
+}
+.menu-content ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Roboto,"Open Sans",sans-serif;
+    color: var(--color-letra);
+    padding: 5px;
+
+}
+.menu-content .menu >li >a:hover{
+    color: var(--color-letrahover);
+    transition: 0.2s;
+}
+
+.menu1{
+    width: 100%;
+    height: 60px;
+  
+
+    align-items: center;
+    justify-content: center;
+
+}
+
+.tecnm-logo{
+width: 100%;
+
+    text-align: center;
+    font-size: medium;
+    font-family: Roboto,"Open Sans",sans-serif;
+}
+
+.tecnm-logo h1{
+    color: var(--color-letra);
+
+}
+.menu-content .menu li:hover .submenu{
+display: flex;
+
+   
+}
+.submenu{
+ 
+  
+  padding: 15px;
+  gap: 20px;
+    display: none;
+   background-color: var(--color-fondosubmenu);
+   flex-direction: column;
+position: absolute;
+
+}
+.submenu  li{
+   
+  
+    
+   
+   
+    box-sizing: border-box;
+}
+
+.submenu  li a{
+    
+    border-bottom: 2px solid rgb(27, 23, 23);
+}
+.submenu  li a:hover{
+    background-color: var(--color-letrahoversubmenu);
+}
+
+@media screen and (min-width:1024px) {
+
+.menu-content{
+    width: 70%;
+    display:flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.menu-content .menu{
+    display: flex;
+    width: 60%;
+  gap: 25px;
+   
+   
+}
+
+.menu1{
+display: flex;
+justify-content: space-around;
+}
+.tecnm-logo{
+    width: 30%;
+ font-size:13px;
+}
+
+}
