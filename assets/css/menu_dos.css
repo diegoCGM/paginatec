@@ -1,0 +1,48 @@
+
+:root{
+
+    --colormenu-dos:#1B396A;
+    --color-letramenu:#fff;
+}
+
+.nav{
+    width: 100%;
+    height: 70px;
+    background-color: var(--colormenu-dos);
+}
+
+.menu_principal .menu li a{
+    color: var(--color-letramenu);
+    font-size: 20px;
+
+}
+.menu_principal .menu li a:hover{
+    color:rgb(178, 170, 170);
+}
+.menu_principal .menu{
+    height: 100%;
+    background-color: ;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.menu-content ul li a img{
+    width: 30px;
+    background-color: ;
+
+}
+.menu_principal {
+  
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+}
+
+span .vector{
+    padding-top: px;
+    width: 10px;
+    height: 15px;
+    
+}
